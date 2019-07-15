@@ -21,7 +21,7 @@
 		041BCD7C22D06907005F01EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		041BCD7F22D06907005F01EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		041BCD8122D06907005F01EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		041BCD8222D06907005F01EB /* TypeType.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TypeType.entitlements; sourceTree = "<group>"; };
+		041BCD8222D06907005F01EB /* TypeTypeRevenge.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TypeTypeRevenge.entitlements; sourceTree = "<group>"; };
 		6820BFB01653F82BCECBDD25 /* Pods_TypeType.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TypeType.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		94E69457C329A571D21315A1 /* Pods-TypeType.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TypeType.debug.xcconfig"; path = "Target Support Files/Pods-TypeType/Pods-TypeType.debug.xcconfig"; sourceTree = "<group>"; };
 		A2860684BF0BD24BC6B2EA09 /* Pods-TypeType.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TypeType.release.xcconfig"; path = "Target Support Files/Pods-TypeType/Pods-TypeType.release.xcconfig"; sourceTree = "<group>"; };
@@ -42,7 +42,7 @@
 		041BCD6C22D06906005F01EB = {
 			isa = PBXGroup;
 			children = (
-				041BCD7722D06906005F01EB /* TypeType */,
+				041BCD7722D06906005F01EB /* TypeTypeRevenge */,
 				041BCD7622D06906005F01EB /* Products */,
 				F5E73C22D82B9489581D9E15 /* Pods */,
 				587FC58B642F2AB397E64105 /* Frameworks */,
@@ -57,7 +57,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		041BCD7722D06906005F01EB /* TypeType */ = {
+		041BCD7722D06906005F01EB /* TypeTypeRevenge */ = {
 			isa = PBXGroup;
 			children = (
 				041BCD7822D06906005F01EB /* AppDelegate.swift */,
@@ -65,9 +65,9 @@
 				041BCD7C22D06907005F01EB /* Assets.xcassets */,
 				041BCD7E22D06907005F01EB /* Main.storyboard */,
 				041BCD8122D06907005F01EB /* Info.plist */,
-				041BCD8222D06907005F01EB /* TypeType.entitlements */,
+				041BCD8222D06907005F01EB /* TypeTypeRevenge.entitlements */,
 			);
-			path = TypeType;
+			path = TypeTypeRevenge;
 			sourceTree = "<group>";
 		};
 		587FC58B642F2AB397E64105 /* Frameworks */ = {
@@ -345,15 +345,15 @@
 			baseConfigurationReference = 94E69457C329A571D21315A1 /* Pods-TypeType.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = TypeType/TypeType.entitlements;
+				CODE_SIGN_ENTITLEMENTS = TypeTypeRevenge/TypeTypeRevenge.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = TypeType/Info.plist;
+				INFOPLIST_FILE = TypeTypeRevenge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mabdh.TypeType;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mabdh.TypeTypeRevenge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 			};
@@ -364,15 +364,15 @@
 			baseConfigurationReference = A2860684BF0BD24BC6B2EA09 /* Pods-TypeType.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = TypeType/TypeType.entitlements;
+				CODE_SIGN_ENTITLEMENTS = TypeTypeRevenge/TypeTypeRevenge.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = TypeType/Info.plist;
+				INFOPLIST_FILE = TypeTypeRevenge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mabdh.TypeType;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mabdh.TypeTypeRevenge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 			};
