@@ -5,6 +5,12 @@
 `TypeTypeRevenge` is a bot app to simulate typing via keyboard in Mac OS.
 It is intended to win the `typeracer(dot)com` challenge.
 
+## Download
+
+[Download here!](https://raw.githubusercontent.com/mabdh/TypeTypeRevenge/master/dist/TypeTypeRevenge.app.zip)
+
+The app is only tested in High Sierra OS, feel free to contact if you have any problem in other OSes.
+
 ## How to use
 1. After the race has just been started, right click on the text and click `inspect`
 ![First Step](./img/1.png)
@@ -12,7 +18,7 @@ It is intended to win the `typeracer(dot)com` challenge.
 2. A new window to inspect an element would appear and select the line with `<div class="">...` tag
 ![Second Step](./img/2.png)
 
-3. Right click on that `<div class="">...` line, click copy and copy element
+3. `Cmd+C`on that `<div class="">` to copy or right click on that `<div class="">...` line, click copy and copy element
 ![Third Step](./img/3.png)
 
 4. Go to TypeTypeRevenge app and paste to the edit box (the white box)
