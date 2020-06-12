@@ -38,4 +38,4 @@ The app is only tested in High Sierra OS, feel free to contact if you have any p
 -->
 
 @ 2019
-[mabdh.com](http://mabdh.github.io)
+[http://mabdh.github.io](http://mabdh.github.io)
